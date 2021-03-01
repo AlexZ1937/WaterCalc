@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Drink"
+    android:scrollbarThumbHorizontal="@color/purple_700"
+    tools:context=".WaterActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient1"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="388dp"
+                android:layout_height="78dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:max="100"
+                android:progressBackgroundTint="#073DA6"
+                android:scrollbarThumbHorizontal="@color/purple_700" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="242dp"
+                android:layout_height="500dp"
+                android:layout_marginStart="90dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/glassanimation1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="344dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0FABC6"
+                android:text="@string/water_cupRu"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

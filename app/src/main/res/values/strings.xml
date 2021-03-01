@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WaterCalc</string>
+    <string name="acceptRu">Принять</string>
+    <string name="femaleRu">Женский</string>
+    <string name="maleRu">Мужской</string>
+    <string name="wieghtRu">Вес</string>
+    <string name="RostRu">Рост</string>
+    <string name="mlRu">Пол</string>
+    <string name="drinkwaterRu">Пить воду</string>
+    <string name="water_cupRu">Стакан воды!</string>
+    <string name="todo">TODO</string>
+</resources>
